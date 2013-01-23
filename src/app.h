@@ -24,4 +24,8 @@ private:
     ofCamera cam;
     ofShader shader;
     pcParticleSet* mesh;
+    ofImage img;
+    ofLight light;
+    int frame;
+    bool capture;
 };
